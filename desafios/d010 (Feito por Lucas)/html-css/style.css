@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*
+* {
+    height: 55%;
+} */
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('../fontes/idroid.otf');
+}
+
+body {
+    margin: 0px;
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, #3cd782);
+    color: white;
+    box-shadow: 1px -3px 14px black;
+}
+
+header > h1 {
+    margin: 0px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 2.5em;
+    text-shadow: 4px 2px 0px black;
+}
+
+header > p {
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: -1px 1px 3px black;
+}
+
+nav {
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+nav > a {
+    margin-left: 0px;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: #3cd782;
+    border-radius: 5px;
+    color: #2fa866;
+}
+
+main {
+    margin: auto;
+    padding-top: 20px;
+    width: 830px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: -1px 2px 6px rgba(0, 0, 0, 0.356);
+}
+
+.bordas {
+    padding: 0px 15px 15px 15px;
+}
+
+h1#titulo {
+    margin: 0px;
+    font-family: 'IDroid';
+    font-size: 2em;
+    color: #1a5c38;
+}
+
+article > h2 {
+    font-family: 'IDroid';
+    font-size: 1.5em;
+    color: #1a5c38;
+    background-image: linear-gradient(to right, #07e46a5d 30%, white 70%);
+    text-indent: 10px;
+}
+
+article > p {
+    text-indent: 30px;
+    line-height: 25px;
+}
+picture {
+    text-align: center;
+}
+
+.video {
+    background-color: #1a5c38;
+    padding: 15px 0px;
+}
+
+.bordas-extra {
+    margin: auto;
+    border-radius: 15px;
+}
+
+.titulo-extra {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 10px 10px 0px 10px;
+    color: white;
+}
+
+.extra {
+    background-color: #2fa866;
+    border-radius: 15px;
+
+}
+
+.extra-conteudo{
+    background-color: #c5ebd6;
+    padding: 3px 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.extra-p {
+    margin-top: 10px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+footer {
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+span {
+    font-weight: bold;    
+}
+
+img {
+    display: inline;
+    text-align: center;
+}
+
+p > a {
+    text-decoration: none;
+    color: #1a5c38;
+    font-weight: bold;
+    background-color: #3cd78285;
+}
+.sub {
+    font-weight: normal;
+    text-decoration: underline;
+}
