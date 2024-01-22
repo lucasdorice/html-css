@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        td, th, caption {
+            border: 1px solid black;
+        }
+
+        col.cnome{
+            background-color: lightblue;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">        
+        </colgroup>
+        <caption><strong>Cadastro</strong></caption>
+        <tr>
+            <th scope="col">Nome:</th>
+            <th scope="col">Sexo:</th>
+            <th scope="col">Idade:</th>
+            <th scope="col">Profissão:</th>
+        </tr>
+        <tr>
+            <td>Lucas Dorice</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Editor de Vídeo</td>
+        </tr>
+        <tr>
+            <td>Alex Sandro</td>
+            <td>M</td>
+            <td>47</td>
+            <td>Gerente Operacional</td>
+        </tr>
+        <tr>
+            <td>Vitor Dorice</td>
+            <td>M</td>
+            <td>15</td>
+            <td>Barbeiro</td>
+        </tr>
+        <tr>
+            <td>Vanessa Silva</td>
+            <td>F</td>
+            <td>45</td>
+            <td>Editor de Vídeo</td>
+        </tr>
+        <tr>
+            <td>Vaneide Solange</td>
+            <td>F</td>
+            <td>61</td>
+            <td>Faxineira</td>
+        </tr>
+        <tr>
+            <td>Beatriz Gomes</td>
+            <td>F</td>
+            <td>82</td>
+            <td>Aposentada</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
