@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-rows: 0.5fr 0.25fr 3fr 0.25fr;
+            grid-template-columns: 2fr 1fr;
+        }
+
+        .topo {
+            background-color: darkred;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .menu {
+            background-color: red;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .principal {
+            background-color: orangered;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .secundario {
+            background-color: orange;
+            grid-row-start: 3;
+            grid-row-end: -2;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .rodape {
+            background-color: yellow;
+            grid-row-start: -2;
+            grid-row-end: -1;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="topo">topo</div>
+        <div class="menu">menu</div>
+        <div class="principal">principal</div>
+        <div class="secundario">secundario</div>
+        <div class="rodape">rodape</div>
+    </div>
+</body>
+</html>
